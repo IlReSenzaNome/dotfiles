@@ -1,0 +1,29 @@
+# Colors (Nueva Paleta)
+
+# Default colors
+[colors.primary]
+background = '#09000D' # Fondo suave con transparencia (EE representa el nivel de transparencia)
+foreground = '#FFFFFF'   # Cambio del color del texto a blanco
+
+# Normal colors
+[colors.normal]
+black   = '#40101D'
+red     = '#A62139'
+green   = '#732036'
+yellow  = '#09000D'
+blue    = '#FFFFFF'
+magenta = '#A62139'
+cyan    = '#732036'
+white   = '#40101D'
+
+# Bright colors
+[colors.bright]
+black   = '#40101D'
+red     = '#A62139'
+green   = '#732036'
+yellow  = '#09000D'
+blue    = '#FFFFFF'
+magenta = '#A62139'
+cyan    = '#732036'
+white   = '#40101D'
+
