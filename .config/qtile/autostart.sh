@@ -25,12 +25,12 @@ polybar -q sound -c "$DIR"/config.ini &
 polybar -q settings -c "$DIR"/config.ini &
 polybar -q wifi -c "$DIR"/config.ini &
 # Play Reproductor
-mpd 
+mpd &
 # Shadows
 picom &
 # notifications
 dunst &
 # widgets
-daemon
+daemon & 
 
 
