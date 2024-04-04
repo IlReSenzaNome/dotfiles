@@ -1,0 +1,13 @@
+(defwidget audio
+  ; Aquí va la definición del widget audio
+)
+
+(defwindow audio
+  :stacking "fg"
+  :focusable "false"
+  :geometry (geometry :x "60%"
+                      :y "5%"
+                      :width "2%"
+                      :height "10%")
+  (audio)) ; Aquí se hace referencia al widget audio
+
