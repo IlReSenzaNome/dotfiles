@@ -40,4 +40,12 @@ Pictures/
 .themes/
 .shell.pre-oh-my-zsh
 .rustup/
-
+.config/Code/
+.config/dconf
+.config/gtk-3.0
+.config/spicetify/
+.config/spotify
+.config/systemd/
+.config/ncmpcpp/
+.config/pulse
+.emacs.d/elpa/
