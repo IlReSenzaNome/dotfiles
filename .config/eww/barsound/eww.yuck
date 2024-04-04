@@ -1,13 +1,16 @@
-(defwidget audio
-  ; Aquí va la definición del widget audio
-)
+(defwidget barsound []
+     (box :class "barsound"
+          :orientation "v"
+          :space-evently "false"
+          ))
 
-(defwindow audio
-  :stacking "fg"
-  :focusable "false"
-  :geometry (geometry :x "60%"
-                      :y "5%"
-                      :width "2%"
-                      :height "10%")
-  (audio)) ; Aquí se hace referencia al widget audio
-
+;; Power Menu ;;
+(defwindow barsound
+    :geometry (geometry :x "60%"
+                        :y "5%"
+                        :width 10px 
+                        :height 20px 
+                        :anchor "top right")
+    :wm-ignore false
+    (barsound))
+  

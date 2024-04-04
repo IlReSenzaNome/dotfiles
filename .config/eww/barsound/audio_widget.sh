@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Files and CMD
-FILE="$HOME/.cache/eww_launch.audio"
+FILE="$HOME/.cache/eww_launch.barsound"
 CFG="$HOME/.config/eww/barsound/"
 EWW=`which eww`
 
@@ -13,7 +13,7 @@ fi
 
 ## Open widgets 
 run_eww() {
-	${EWW} --config "$CFG" open audio 
+	${EWW} --config "$CFG" open barsound 
 }
 
 ## Launch or close widgets accordingly
@@ -21,6 +21,6 @@ if [[ ! -f "$FILE" ]]; then
 	touch "$FILE"
 	run_eww
 else
-	${EWW} --config "$CFG" close audio place 
+	${EWW} --config "$CFG" close barsound place 
 	rm "$FILE"
 fi

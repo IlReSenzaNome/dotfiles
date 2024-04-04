@@ -1,12 +1,12 @@
 ;;; power buttons
 (defwidget powermenu [] 
 	(box :class "wid_get" :vexpand "false" :hexpand "false" :orientation "v"
-		(button :class "btn_lock" :onclick "slock" "")
-		(button :class "btn_term" :onclick "warp-terminal" "")
-		(button :class "btn_logout" :onclick "sh -c '~/Scripts/quit.sh'" "")
-		(button :class "btn_sleep" :onclick "systemctl suspend" "")
-		(button :class "btn_restart" :onclick "systemctl reboot" "")
-		(button :class "btn_poweroff" :onclick "systemctl poweroff" "")))
+		(button :class "btn_lock" :onclick "slock" :tooltip "lock session" "")
+		(button :class "btn_term" :onclick "warp-terminal" :tooltip "Launch terminal" "")
+		(button :class "btn_logout" :onclick "sh -c '~/Scripts/quit.sh'" :tooltip "close session" "")
+		(button :class "btn_sleep" :onclick "systemctl suspend" :tooltip "suspend session" " ")
+		(button :class "btn_restart" :onclick "systemctl reboot" :tooltip "restart session" "")
+		(button :class "btn_poweroff" :onclick "systemctl poweroff" :tooltip "Poweroff" "")))
 
 
 
