@@ -2,6 +2,7 @@
 
 # Select wallpaper
 feh --bg-scale ~/.config/qtile/Wallpapers/wallpaper.jpg
+setxkbmap -option caps:escape
 # Add this script to your wm startup file.
 
 DIR="$HOME/.config/polybar/"
