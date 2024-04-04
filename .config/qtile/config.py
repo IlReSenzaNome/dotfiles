@@ -25,7 +25,7 @@
 # SOFTWARE.
 
 from libqtile import bar, layout, qtile, widget, hook
-from libqtile.config import Click, Drag, Group, Key, Match, Screen
+from libqtile.config import Click, Drag, Group, Key, Match, Screen, KeyChord
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 import os
@@ -95,16 +95,15 @@ keys = [
     Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%"), desc="Up brightlight"), 
     Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10%-"), desc="Down brightlight"),
     # Keys control media
-    Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause")),
-    Key([], "XF86AudioPrev", lazy.spawn("playerctl previous")),
-    Key([], "XF86AudioNext", lazy.spawn("playerctl next")),
+    Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause"), desc="Pause button"),
+    Key([], "XF86AudioPrev", lazy.spawn("playerctl previous"), desc="Prev button"),
+    Key([], "XF86AudioNext", lazy.spawn("playerctl next"), desc="Next button"),
     # Screen capture
     Key([mod], "s", lazy.spawn("scrot '/home/ilresenzanome/Pictures/mi_captura_%Y-%m-%d-%H%M%S.png'"), desc="Screen capture"),
     Key([mod, "shift"], "s", lazy.spawn("scrot -s '/home/ilresenzanome/Pictures/mi_captura_%Y-%m-%d-%H%M%S.png'"), desc="Screen capture section"),
     # PowerMenu Launch
     Key([mod], "x", lazy.spawn("bash /home/ilresenzanome/Scripts/Power/power.sh"), desc="Launch Powermenu"),
 ]
-
 # Add key bindings to switch VTs in Wayland.
 # We can't check qtile.core.name in default config as it is loaded before qtile is started
 # We therefore defer the check until the key binding is run by using .when(func=...)
