@@ -83,8 +83,9 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # User shorcuts an d keys control
     Key([mod1], "space", lazy.spawn("bash /home/ilresenzanome/.config/rofi/alternative/bin/launcher"), desc="Spawn a command using a prompt widget"),
-    Key([mod], "e", lazy.spawn("thunar"), desc="Launch terminal"), 
+    Key([mod], "e", lazy.spawn("thunar"), desc="Launch File explorer"), 
     Key([mod1], "f", lazy.spawn("firefox"), desc="Launch firefox browser"), 
+    Key([mod1], "b", lazy.spawn("brave"), desc="Launch brave browser"), 
     Key([mod1], "s", lazy.spawn("spotify"), desc="Launch spotify"), 
     # Keys control  volumen
     Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -10%"), desc="Low Volumen key"),

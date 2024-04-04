@@ -49,3 +49,6 @@ Pictures/
 .config/ncmpcpp/
 .config/pulse
 .emacs.d/elpa/
+.config/BraveSoftware/
+.config/mimeapps.list
+.config/xfce4/
