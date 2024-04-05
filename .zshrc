@@ -17,5 +17,7 @@ alias image="kitten icat"
 alias f="ranger"
 alias e="emacs"
 alias mpc='mpc --port 6601'
+alias ra="ranger"
+alias v="nvim"
 
 export PATH=$PATH:/home/ilresenzanome/.spicetify
