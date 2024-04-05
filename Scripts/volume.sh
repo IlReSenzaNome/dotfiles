@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Función para mostrar el uso correcto del script
 usage() {
     echo "Uso: $0 [up|down]"
@@ -16,7 +15,13 @@ if [ "$1" != "up" ] && [ "$1" != "down" ]; then
     usage
 fi
 
-# Ajustar el volumen utilizando amixer
+# Limitar el volumen máximo al 100%
+if [ "$current_volume" -ge 100 ] && [ "$1" = "up" ]; then
+    echo "El volumen ya está al máximo."
+    exit 0
+fi
+
+# Ajustar el volumen utilizando pactl
 if [ "$1" = "up" ]; then
     pactl set-sink-volume @DEFAULT_SINK@ +10%
 elif [ "$1" = "down" ]; then
