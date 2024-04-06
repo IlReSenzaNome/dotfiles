@@ -1,25 +1,25 @@
 {
   "prefs": {
     "WelcomeTipsFeaturesUsed": "[{\"Action\":\"AiCommandSearch\"},{\"Action\":\"SplitPane\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockAction\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"CommandPalette\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"WarpAI\"},{\"Hint\":\"BlockSelect\"}]",
-    "ShowWarningBeforeQuitting": "false",
     "file_manager_command": "thunar",
-    "ExperimentId": "4775ad2a-80be-43ac-840a-c665ee2eaa16",
-    "AutosuggestionAcceptedCount": "2",
-    "LaunchNotebookShown": "true",
-    "HasAutoOpenedWelcomeFolder": "true",
-    "WelcomeTipsCompleted": "true",
-    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-04-06T00:34:01.014356005Z\"}",
-    "NotebookFontSize": "14.0",
     "Shortcuts": "true",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":2,\"next_refresh_time\":\"2024-04-06T00:34:01.014356Z\"}",
     "FontName": "\"JetBrainsMono Nerd Font\"",
+    "ShowWarningBeforeQuitting": "false",
     "SystemTheme": "false",
+    "Theme": "\"FancyDracula\"",
+    "ExperimentId": "4775ad2a-80be-43ac-840a-c665ee2eaa16",
     "WorkflowsBoxOpen": "true",
+    "ReceivedReferralTheme": "\"Active\"",
+    "AutosuggestionAcceptedCount": "2",
+    "NotebookFontSize": "14.0",
     "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true,\"v0.2024.03.26.08.02.stable_02\":true,\"v0.2024.04.02.08.02.stable_01\":true}",
     "Notifications": "{\"mode\":\"Enabled\",\"is_long_running_enabled\":true,\"long_running_threshold\":{\"secs\":30,\"nanos\":0},\"is_password_prompt_enabled\":true}",
-    "Theme": "\"FancyDracula\"",
-    "SelectedSystemThemes": "{\"light\":\"Light\",\"dark\":\"GruvboxDark\"}",
     "AliasExpansionBannerSeen": "true",
     "FontSize": "13.0",
-    "ReceivedReferralTheme": "\"Active\""
+    "LaunchNotebookShown": "true",
+    "SelectedSystemThemes": "{\"light\":\"Light\",\"dark\":\"GruvboxDark\"}",
+    "WelcomeTipsCompleted": "true"
   }
 }
